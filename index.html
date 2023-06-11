@@ -1,1 +1,30 @@
-Hello Worldg
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    @keyframes glowing {
+      0% {
+        color: #ff0000;
+        text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000;
+      }
+      50% {
+        color: #ffff00;
+        text-shadow: 0 0 20px #ffff00, 0 0 30px #ffff00, 0 0 40px #ffff00, 0 0 50px #ffff00, 0 0 60px #ffff00, 0 0 70px #ffff00, 0 0 80px #ffff00;
+      }
+      100% {
+        color: #ff0000;
+        text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000;
+      }
+    }
+
+    .animated-text {
+      font-size: 72px;
+      text-align: center;
+      animation: glowing 2s linear infinite;
+    }
+  </style>
+</head>
+<body>
+  <div class="animated-text">Hello</div>
+</body>
+</html>
