@@ -8,6 +8,9 @@ body {
   background-image: url(Images/MainBackground.jpg);
   background-size: cover;
   position: relative;
+  width: 100%;
+  height: 75%;
+  z-index: -1;
 }
 
 .container {  
@@ -15,22 +18,31 @@ body {
   border: 1px solid orange;
 }
 
-.banner {
+.Title  {
   color: white;
   font-family: 'TitleFont';
-  font-size: 30px;
-  top: 10%;
+  font-size: 45px;
+  top: 8%;
   left: 5%;
   position: absolute;
-  /*transform: translate(-50%, -50%);*/
+
+}
+
+.UnderTitle {
+  color: white;
+  font-family: 'TitleFont';
+  font-size: 18px;
+  top: 15%;
+  left: 9.5%;
+  position: absolute;
 
 }
 .Home {
   color: white;
   font-family: 'TitleFont';
-  font-size: 30px;
+  font-size: 18px;
   Top: 10%;
-  Left: 64%;
+  Left: 72%;
   position: absolute;
 
 }
@@ -38,34 +50,40 @@ body {
 .About { 
   color: white;
   font-family: 'TitleFont';
-  font-size: 30px;
+  font-size: 18px;
   Top: 10%;
-  Left: 71%;
+  Left: 78%;
   position: absolute;
 }
 
 .Gallery {
   color: white;
   font-family: 'TitleFont';
-  font-size: 30px;
+  font-size: 18px;
   Top: 10%;
-  Left: 78%;
+  Left: 84%;
   position: absolute;
-}
+} 
 
 .Contact {
   color: white;
   font-family: 'TitleFont';
-  font-size: 30px;
+  font-size: 18px;
   Top: 10%;
-  Left: 86%;
+  Left: 90%;
   position: absolute;
 }
 
 
 @font-face {
   font-family: 'TitleFont';
-  src: url('Fonts/Fontspring-DEMO-theseasons-reg.otf') format('truetype');
+  src: url('Fonts/Fontspring-DEMO-theseasons-reg.otf') 
+}
+
+@font-face {
+  font-family: 'SecondaryTitle';
+  src: url(Fonts/Fontspring-DEMO-theseasons-lt.otf); 
+
 }
 
   
