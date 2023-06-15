@@ -3,24 +3,17 @@ html, body {
   padding: 0;
 }
 
-
-body {
+.Page1 {  
   background-image: url(Images/MainBackground.jpg);
   background-size: cover;
   position: relative;
-  width: 100%;
-  height: 75%;
-  z-index: -1;
-}
-
-.container {  
-  height: 800px;
+  height: 100vh;
   border: 1px solid orange;
 }
 
 .Title  {
   color: white;
-  font-family: 'TitleFont';
+  font-family: 'AltaRegular';
   font-size: 45px;
   top: 8%;
   left: 5%;
@@ -30,7 +23,7 @@ body {
 
 .UnderTitle {
   color: white;
-  font-family: 'TitleFont';
+  font-family: 'AltaLight';
   font-size: 18px;
   top: 15%;
   left: 9.5%;
@@ -39,7 +32,7 @@ body {
 }
 .Home {
   color: white;
-  font-family: 'TitleFont';
+  font-family: 'AltaLight';
   font-size: 18px;
   Top: 10%;
   Left: 72%;
@@ -49,7 +42,7 @@ body {
 
 .About { 
   color: white;
-  font-family: 'TitleFont';
+  font-family: 'AltaLight';
   font-size: 18px;
   Top: 10%;
   Left: 78%;
@@ -58,7 +51,7 @@ body {
 
 .Gallery {
   color: white;
-  font-family: 'TitleFont';
+  font-family: 'AltaLight';
   font-size: 18px;
   Top: 10%;
   Left: 84%;
@@ -67,24 +60,59 @@ body {
 
 .Contact {
   color: white;
-  font-family: 'TitleFont';
+  font-family: 'AltaLight';
   font-size: 18px;
   Top: 10%;
   Left: 90%;
   position: absolute;
 }
 
+.Banner  {
+  top: 80%;
+  position: absolute;
+  background-color: white;
+  width: 100vw;
+  height: 150px;
+  border: 1px solid red;
+
+}
+
+.BannerText {
+  padding: 25px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'AltaRegular';
+}
+
+.BannerText2 {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Altalight';
+}
+
+.Page2 {
+  border: 1px solid red;
+  height: 100vh;
+}
+
 
 @font-face {
-  font-family: 'TitleFont';
-  src: url('Fonts/Fontspring-DEMO-theseasons-reg.otf') 
+  font-family: 'AltaRegular';
+  src: url(Fonts/Alta_regular.otf) 
 }
 
 @font-face {
-  font-family: 'SecondaryTitle';
-  src: url(Fonts/Fontspring-DEMO-theseasons-lt.otf); 
+  font-family: 'Altalight';
+  src: url(Fonts/Alta_light.otf); 
 
 }
+
+@font-face {
+  font-family: 'AltaCaption';
+  src: url(Fonts/Alta_caption.otf);
+}
+
+
 
   
 
