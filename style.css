@@ -8,7 +8,6 @@ html, body {
   background-size: cover;
   position: relative;
   height: 100vh;
-  border: 1px solid orange;
 }
 
 .Title  {
@@ -73,7 +72,7 @@ html, body {
   background-color: white;
   width: 100vw;
   height: 150px;
-  border: 1px solid red;
+  
 
 }
 
@@ -91,7 +90,6 @@ html, body {
 }
 
 .Page2 {
-  border: 1px solid red;
   height: 100vh;
 }
 
