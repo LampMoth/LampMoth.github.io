@@ -71,7 +71,7 @@ html, body {
   position: absolute;
   background-color: white;
   width: 100vw;
-  height: 150px;
+  height: 20vh;
   
 
 }
@@ -90,8 +90,43 @@ html, body {
 }
 
 .Page2 {
+  background-color: white;
+  background-size: cover;
+  border: 1px solid red;
+  width: 100vw;
   height: 100vh;
 }
+
+.card01 {
+  position: absolute;
+  border: 1px solid orange;
+  width: 275px;
+  height: 400px;
+  top: 120%;
+  left: 11%;
+
+}
+
+.card02 {
+  position: absolute;
+  border: 1px solid orange;
+  width: 275px;
+  height: 400px;
+  top: 120%;
+  left: 40%;
+
+}
+
+.card03 {
+  position: absolute;
+  border: 1px solid orange;
+  width: 275px;
+  height: 400px;
+  top: 120%;
+  left: 68%;
+
+}
+
 
 
 @font-face {
