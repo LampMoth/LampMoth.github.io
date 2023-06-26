@@ -14,7 +14,7 @@ html, body {
   color: white;
   font-family: 'AltaRegular';
   font-size: 45px;
-  top: 3%;
+  top: 1%;
   left: 5%;
   position: fixed;
   z-index: 100;
@@ -24,9 +24,9 @@ html, body {
 .UnderTitle {
   color: white;
   font-family: 'AltaLight';
-  font-size: 18px;
-  top: 10%;
-  left: 9.5%;
+  font-size: 25px;
+  top: 7.5%;
+  left: 8.2%;
   position: fixed;
   z-index: 100;
 
@@ -121,8 +121,21 @@ html, body {
   background-image: url(Images/268DB924-E962-4B9D-8733-30AD6CE435BC_1_105_c.jpeg);
   background-position: 50%;
   background-size: cover;
-
+  transition: background-color 0.3s;
 }
+
+.card01:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.card01Content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
 .card01Text {
   letter-spacing: 3px;
@@ -132,6 +145,7 @@ html, body {
   top: 192%;
   left: 20%;
   transform: translateX(-50%);
+  
 }
 
 .card02 {
@@ -189,15 +203,6 @@ html, body {
   border: 1px solid red;
 }
 
-.light-title {
-  color: #000000; /* Black color for titles on light background */
-}
-
-.dark-title {
-  color: #ffffff; /* White color for titles on dark background */
-}
-
-
 @font-face {
   font-family: 'AltaRegular';
   src: url(Fonts/Alta_regular.otf) 
@@ -213,3 +218,31 @@ html, body {
   font-family: 'AltaCaption';
   src: url(Fonts/Alta_caption.otf);
 }
+
+.Title,
+.UnderTitle,
+.Home,
+.About,
+.gallerylink,
+.Contact {
+  transition: color 0.3s; /* Add a smooth color transition */
+}
+
+.light-bg .Title,
+.light-bg .UnderTitle,
+.light-bg .Home,
+.light-bg .About,
+.light-bg .gallerylink,
+.light-bg .Contact {
+  color: white; /* Set the title color for light backgrounds */
+}
+
+.dark-bg .Title,
+.dark-bg .UnderTitle,
+.dark-bg .Home,
+.dark-bg .About,
+.dark-bg .gallerylink,
+.dark-bg .Contact {
+  color: black; /* Set the title color for dark backgrounds */
+}
+
