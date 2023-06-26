@@ -14,9 +14,10 @@ html, body {
   color: white;
   font-family: 'AltaRegular';
   font-size: 45px;
-  top: 8%;
+  top: 3%;
   left: 5%;
-  position: absolute;
+  position: fixed;
+  z-index: 100;
 
 }
 
@@ -24,46 +25,52 @@ html, body {
   color: white;
   font-family: 'AltaLight';
   font-size: 18px;
-  top: 15%;
+  top: 10%;
   left: 9.5%;
-  position: absolute;
+  position: fixed;
+  z-index: 100;
 
 }
+
 .Home {
   color: white;
   font-family: 'AltaLight';
-  font-size: 18px;
-  Top: 10%;
-  Left: 72%;
-  position: absolute;
+  font-size: 25px;
+  Top: 4%;
+  Left: 71%;
+  position: fixed;
+  z-index: 100;
 
 }
 
 .About { 
   color: white;
   font-family: 'AltaLight';
-  font-size: 18px;
-  Top: 10%;
-  Left: 78%;
-  position: absolute;
+  font-size: 25px;
+  Top: 4%;
+  Left: 76.5%;
+  position: fixed;
+  z-index: 100;
 }
 
 .gallerylink {
   color: white;
   font-family: 'AltaLight';
-  font-size: 18px;
-  Top: 10%;
-  Left: 84%;
-  position: absolute;
+  font-size: 25px;
+  Top: 4%;
+  Left: 83%;
+  position: fixed;
+  z-index: 100;
 } 
 
 .Contact {
   color: white;
   font-family: 'AltaLight';
-  font-size: 18px;
-  Top: 10%;
-  Left: 90%;
-  position: absolute;
+  font-size: 25px;
+  Top: 4%;
+  Left: 90.5%;
+  position: fixed;
+  z-index: 100;
 }
 
 .Banner  {
@@ -72,6 +79,7 @@ html, body {
   background-color: white;
   width: 100vw;
   height: 20vh;
+  z-index: 1;
   
 
 }
@@ -81,6 +89,7 @@ html, body {
   text-align: center;
   font-size: 40px;
   font-family: 'AltaRegular';
+  z-index: 1;
 }
 
 .BannerText2 {
@@ -88,6 +97,7 @@ html, body {
   text-align: center;
   font-size: 20px;
   font-family: 'Altalight';
+  z-index: 1;
 }
 
 .Page2 {
@@ -97,11 +107,15 @@ html, body {
   height: 100vh;
 }
 
+.card01 .card02 .card03 .card01Text .card02Text .card03Text {
+  z-index: 1;
+}
+
 .card01 {
   position: absolute;
   width: 350px;
   height: 575px;
-  top: 106%;
+  top: 113%;
   left: 20%;
   transform: translateX(-50%);
   background-image: url(Images/268DB924-E962-4B9D-8733-30AD6CE435BC_1_105_c.jpeg);
@@ -115,7 +129,7 @@ html, body {
   font-size: 30px;
   font-family: 'AltaLight';
   position: absolute;
-  top: 185%;
+  top: 192%;
   left: 20%;
   transform: translateX(-50%);
 }
@@ -124,7 +138,7 @@ html, body {
   position: absolute;
   width: 350px;
   height: 575px;
-  top: 106%;
+  top: 113%;
   left: 50%;
   transform: translateX(-50%);
   background-image: url(Images/IMG_5140.jpeg);
@@ -137,7 +151,7 @@ html, body {
   position: absolute;
   letter-spacing: 3px;
   font-size: 30px;
-  top: 185%;
+  top: 192%;
   left: 50%;
   transform: translateX(-50%);
 
@@ -148,7 +162,7 @@ html, body {
   position: absolute;
   width: 350px;
   height: 575px;
-  top: 106%;
+  top: 113%;
   left: 80%;
   transform: translateX(-50%);
   background-image: url(Images/IMG_5048.jpeg);
@@ -162,7 +176,7 @@ html, body {
   font-size: 30px;
   font-family: 'AltaLight';
   position: absolute;
-  top: 185%;
+  top: 192%;
   left: 80%;
   transform: translateX(-50%);
 }
@@ -175,6 +189,13 @@ html, body {
   border: 1px solid red;
 }
 
+.light-title {
+  color: #000000; /* Black color for titles on light background */
+}
+
+.dark-title {
+  color: #ffffff; /* White color for titles on dark background */
+}
 
 
 @font-face {
